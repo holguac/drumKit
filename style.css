@@ -1,0 +1,95 @@
+@font-face {
+    src: url(./fonts/FuturaPTBook.otf);
+    font-family: futura;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: futura;
+    color: black; 
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #CAC2B5;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+#buttons {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 1200px;
+}
+
+button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    color: black;
+    background-color: #E8AEB7;
+    font-size: 10px;
+    border-style: solid;
+    border-color: #ECDCC9;
+    background-color: #CAC2B5;
+    border-width: 1px;
+    width: 50px;
+    height: 50px;
+}
+
+@media all and (max-width: 1400px) {
+	h2 {
+		font-size: 64px;
+	}
+	#buttons {
+		width: 700px;
+	}
+	button {
+		font-size: 16px;
+		width: 150px;
+		height: 150px;
+		margin: 20px;
+	}
+}
+
+@media all and (max-width: 768px) {
+	h2 {
+		font-size: 16px;
+	}
+	#buttons {
+		width: 70vw;
+	}
+	button {
+		font-size: 14px;
+		width: 120px;
+		height: 120px;
+		margin: 10px;
+	}
+}
+
+@media all and (max-width: 600px) {
+	#buttons {
+		width: 90vw;
+	}
+}
+
+
+/* #B5D2CB E8AEB7 */
+
+
+
