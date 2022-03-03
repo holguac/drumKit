@@ -85,11 +85,6 @@ button {
 	}
 }
 
-@media all and (max-width: 600px) {
-	#buttons {
-		width: 90vw;
-	}
-}
 
 
 /* #B5D2CB E8AEB7 */
