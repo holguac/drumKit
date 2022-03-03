@@ -73,3 +73,39 @@ document.addEventListener("keypress", (event) => {
         audioTom.src ="sounds/tom.wav";
     }
 });
+
+boom.addEventListener("click", () => {
+    audioBoom.src = "sounds/boom.wav";
+}); 
+
+clap.addEventListener("click", () => {
+    audioClap.src = "sounds/clap.wav";
+}); 
+
+hihat.addEventListener("click", () => {
+    audioHihat.src = "sounds/hihat.wav";
+}); 
+
+kick.addEventListener("click", () => {
+    audioKick.src = "sounds/kick.wav";
+}); 
+
+openhat.addEventListener("click", () => {
+    audioOpenHat.src = "sounds/openhat.wav";
+}); 
+
+ride.addEventListener("click", () => {
+    audioRide.src = "sounds/ride.wav";
+}); 
+
+snare.addEventListener("click", () => {
+    audioSnare.src = "sounds/snare.wav";
+}); 
+
+tink.addEventListener("click", () => {
+    audioTink.src = "sounds/tink.wav";
+}); 
+
+tom.addEventListener("click", () => {
+    audioTom.src = "sounds/tom.wav";
+}); 
